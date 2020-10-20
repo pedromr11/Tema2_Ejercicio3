@@ -1,0 +1,33 @@
+body {
+    font-family: serif;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+    border: solid 1px black;
+}
+
+#container{
+    
+    border: solid 1px black;
+}
+
+article{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+article, p{
+    margin-bottom: 10px;
+}
+
+
+
