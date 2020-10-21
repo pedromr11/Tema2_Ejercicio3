@@ -1,5 +1,6 @@
 body {
     font-family: serif;
+    background: gainsboro;
 }
 
 h1, h2, h3 {
@@ -8,26 +9,47 @@ h1, h2, h3 {
 
 header h1 {
     text-align: center;
+    color: blue;
+}
+
+header {
+    background: white;
 }
 
 header {
     padding: 10px;
-    border: solid 1px black;
+    /*border: solid 1px black;*/
 }
 
 #container{
-    
-    border: solid 1px black;
+    margin: auto;
+    /*border: solid 1px black;*/
+    margin-left: 25%;
+    margin-right: 25%;
+
 }
 
 article{
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px;
+    background: white;
 }
 
 article, p{
     margin-bottom: 10px;
 }
 
+footer{
+    text-align: center;
+    color: grey;
+}
 
+article small{
+    color: aqua;
+}
 
+.post-head{
+    margin-bottom: 35px;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
